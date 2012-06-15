@@ -331,9 +331,17 @@ dl dd {
     margin-left: 30px;
 }
 
+/* block level */
 blockquote {
-    margin: 0 0 0 30px;
-    padding: 0;
+    border-left: 0.4em solid #ddd;
+    margin: 15px 0;
+    padding: 0 15px;
+    color: #777;
+}
+blockquote blockquote {
+    padding: 0 0 0 1em;
+    margin-left: 2em;
+    border-left: 0.4em solid #ddd;
 }
 
 ul, ol {
