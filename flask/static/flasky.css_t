@@ -11,6 +11,8 @@
 
 {% set font_family = '"Georgia", serif' %}
 {% set header_font_family = '"Garamond", "Georgia", serif' %}
+{% set font_size = '17px' %}
+{% set sidebar_font_size = '14px' %}
 
 {% set link_color = '#004B6B' %}
 {% set link_hover_color = '#6D4100' %}
@@ -21,7 +23,7 @@
 
 body {
     font-family: {{ font_family }};
-    font-size: 17px;
+    font-size: {{ font_size }};
     background-color: white;
     color: #000;
     margin: 0;
@@ -88,7 +90,7 @@ div.sphinxsidebar a:hover {
 }
 
 div.sphinxsidebar {
-    font-size: 14px;
+    font-size: {{ sidebar_font_size }};
     line-height: 1.5;
 }
 
