@@ -82,7 +82,9 @@ div.related {
 
 div.sphinxsidebar a {
     color: #444;
+{% if theme_link_text_decorations %}
     text-decoration: none;
+{% endif %}
     border-bottom: 1px dotted #999;
 }
 
@@ -151,12 +153,18 @@ div.sphinxsidebar input {
 
 a {
     color: {{ link_color }};
+{% if theme_link_text_decorations %}
     text-decoration: underline;
+{% else %}
+    text-decoration: none;
+{% endif %}
 }
 
 a:hover {
     color: {{ link_hover_color }};
+{% if theme_link_text_decorations %}
     text-decoration: underline;
+{% endif %}
 }
 
 div.body h1,
@@ -378,6 +386,7 @@ tt.xref, a tt {
     border-bottom: 1px solid white;
 }
 
+{% if theme_link_text_decorations %}
 a.reference {
     text-decoration: none;
     border-bottom: 1px dotted {{ link_color }};
@@ -386,17 +395,22 @@ a.reference {
 a.reference:hover {
     border-bottom: 1px solid {{ link_hover_color }};
 }
+{% endif %}
 
 a.footnote-reference {
-    text-decoration: none;
     font-size: 0.7em;
     vertical-align: top;
+{% if theme_link_text_decorations %}
+    text-decoration: none;
     border-bottom: 1px dotted {{ link_color }};
+{% endif %}
 }
 
+{% if theme_link_text_decorations %}
 a.footnote-reference:hover {
     border-bottom: 1px solid {{ link_hover_color }};
 }
+{% endif %}
 
 a:hover tt {
     background: #EEE;
