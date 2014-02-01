@@ -64,7 +64,7 @@ img.floatingflask {
 div.footer {
     width: {{ page_width }};
     margin: 20px auto 30px auto;
-    font-size: 14px;
+    font-size: 80%;
     color: #888;
     text-align: right;
 }
@@ -106,14 +106,14 @@ div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
     font-family: {{ header_font_family }};
     color: #444;
-    font-size: 24px;
+    font-size: 170%;
     font-weight: normal;
     margin: 0 0 5px 0;
     padding: 0;
 }
 
 div.sphinxsidebar h4 {
-    font-size: 20px;
+    font-size: 140%;
 }
 
 div.sphinxsidebar h3 a {
@@ -217,7 +217,7 @@ dd div.admonition {
 div.admonition p.admonition-title {
     font-family: {{ header_font_family }};
     font-weight: normal;
-    font-size: 24px;
+    font-size: 140%;
     margin: 0 0 10px 0;
     padding: 0;
     line-height: 1;
