@@ -14,6 +14,8 @@
    theme_header_font_family or '"Garamond", "Georgia", serif' %}
 {% set font_size = theme_font_size or '17px' %}
 {% set sidebar_font_size = theme_sidebar_font_size or '14px' %}
+{% set font_weight = theme_font_weight or 'normal' %}
+{% set header_font_weight = theme_header_font_weight or 'normal' %}
 
 {% set link_color = theme_link_color or '#004B6B' %}
 {% set link_hover_color = theme_link_hover_color or '#6D4100' %}
@@ -25,6 +27,7 @@
 body {
     font-family: {{ font_family }};
     font-size: {{ font_size }};
+    font-weight: {{ font_weight }};
     background-color: white;
     color: #000;
     margin: 0;
@@ -112,7 +115,7 @@ div.sphinxsidebar h4 {
     font-family: {{ header_font_family }};
     color: #444;
     font-size: 170%;
-    font-weight: normal;
+    font-weight: {{ header_font_weight }};
     margin: 0 0 5px 0;
     padding: 0;
 }
@@ -174,7 +177,7 @@ div.body h4,
 div.body h5,
 div.body h6 {
     font-family: {{ header_font_family }};
-    font-weight: normal;
+    font-weight: {{ header_font_weight }};
     margin: 30px 0px 10px 0px;
     padding: 0;
 }
@@ -227,7 +230,7 @@ dd div.admonition {
 
 div.admonition p.admonition-title {
     font-family: {{ header_font_family }};
-    font-weight: normal;
+    font-weight: {{ header_font_weight }};
     font-size: 140%;
     margin: 0 0 10px 0;
     padding: 0;
