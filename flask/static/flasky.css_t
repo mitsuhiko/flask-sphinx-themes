@@ -9,13 +9,14 @@
 {% set page_width = '940px' %}
 {% set sidebar_width = '220px' %}
 
-{% set font_family = '"Georgia", serif' %}
-{% set header_font_family = '"Garamond", "Georgia", serif' %}
-{% set font_size = '17px' %}
-{% set sidebar_font_size = '14px' %}
+{% set font_family = theme_font_family or '"Georgia", serif' %}
+{% set header_font_family =
+   theme_header_font_family or '"Garamond", "Georgia", serif' %}
+{% set font_size = theme_font_size or '17px' %}
+{% set sidebar_font_size = theme_sidebar_font_size or '14px' %}
 
-{% set link_color = '#004B6B' %}
-{% set link_hover_color = '#6D4100' %}
+{% set link_color = theme_link_color or '#004B6B' %}
+{% set link_hover_color = theme_link_hover_color or '#6D4100' %}
 
 @import url("basic.css");
 
