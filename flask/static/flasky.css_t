@@ -394,61 +394,6 @@ a:hover tt {
 }
 
 
-@media screen and (max-width: 870px) {
-
-    div.sphinxsidebar {
-        display: none;
-    }
-
-    div.document {
-       width: 100%;
-
-    }
-
-    div.documentwrapper {
-        margin-left: 0;
-        margin-top: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-    }
-
-    div.bodywrapper {
-        margin-top: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-    }
-
-    ul {
-        margin-left: 0;
-    }
-
-    .document {
-        width: auto;
-    }
-
-    .footer {
-        width: auto;
-    }
-
-    .bodywrapper {
-        margin: 0;
-    }
-
-    .footer {
-        width: auto;
-    }
-
-    .github {
-        display: none;
-    }
-
-
-
-}
-
-
-
 @media screen and (max-width: 875px) {
 
     body {
