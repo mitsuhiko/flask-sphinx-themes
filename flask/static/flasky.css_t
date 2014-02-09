@@ -471,10 +471,6 @@ a:hover tt {
         width: auto;
     }
 
-    .footer {
-        width: auto;
-    }
-
     .github {
         display: none;
     }
