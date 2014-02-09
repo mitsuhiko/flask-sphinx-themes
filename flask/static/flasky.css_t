@@ -394,7 +394,7 @@ a:hover tt {
 }
 
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: {{ page_width }}) {
 
     body {
         margin: 0;
