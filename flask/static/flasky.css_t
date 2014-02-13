@@ -365,8 +365,11 @@ tt {
 }
 
 tt.xref, a tt {
-    background-color: #FBFBFB;
-    border-bottom: 1px solid white;
+    color: #004B6B;
+}
+
+tt.xref:hover, a:hover tt {
+    color: #6D4100;
 }
 
 a.reference {
@@ -388,11 +391,6 @@ a.footnote-reference {
 a.footnote-reference:hover {
     border-bottom: 1px solid #6D4100;
 }
-
-a:hover tt {
-    background: #EEE;
-}
-
 
 @media screen and (max-width: 870px) {
 
