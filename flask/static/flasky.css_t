@@ -364,11 +364,11 @@ tt {
     /* padding: 1px 2px; */
 }
 
-tt.xref, a tt {
+a tt {
     color: #004B6B;
 }
 
-tt.xref:hover, a:hover tt {
+a:hover tt {
     color: #6D4100;
 }
 
