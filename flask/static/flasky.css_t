@@ -87,6 +87,7 @@ div.sphinxsidebar {
 }
 
 div.sphinxsidebarwrapper {
+    position: relative;
     padding: 18px 10px;
 }
 
