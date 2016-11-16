@@ -4,7 +4,7 @@ Flask Sphinx Themes
 This repository contains Sphinx themes for Flask and Flask related
 projects.  To use this theme in your Sphinx documentation:
 
-1. Install the package using pip: `pip install Flask-Spinx-Themes`
+1. Install the package using pip: ``pip install flask-sphinx-themes``
 
 2. Add this to ``conf.py``:
 
