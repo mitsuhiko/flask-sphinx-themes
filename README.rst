@@ -17,48 +17,58 @@ Themes
 
 The following themes exist for ``html_theme``.
 
-======================= ===============================================
-flask                   The standard Flask documentation theme for
-                        large projects
+=========================== ===========================================
+flask                       The standard Flask documentation theme for
+                            large projects
 
-flask_small             Small single page theme. Intended to be used
-                        by very small addon libraries for Flask.
-======================= ===============================================
+flask_small                 Small single page theme. Intended to be
+                            used by very small addon libraries for
+                            Flask.
+=========================== ===========================================
 
 Options
 -------
 
 The following options can be set with ``html_theme_options``.
 
-======================= ===============================================
-index_logo              Filename of a picture in ``_static`` to be used
-                        as replacement for the ``h1`` in the
-                        ``index.rst`` file.
-                        *Default unset.*
+=========================== ===========================================
+index_logo                  Filename of a picture in ``_static`` to be
+                            used as replacement for the ``h1`` in the
+                            ``index.rst`` file.
+                            *Default unset.*
 
-index_logo_height       Height of the index logo.
-                        *Default 120px*.
+index_logo_height           Height of the index logo.
+                            *Default 120px*.
 
-touch_icon              Filename of a picture in ``_static`` to be use
-                        as the app icon on Apple devices.
-                        *Default unset.*
+touch_icon                  Filename of a picture in ``_static`` to be
+                            used as the app icon on Apple devices.
+                            *Default unset.*
 
-github_fork             Repository name on GitHub for the "Fork Me"
-                        badge.
-                        *Default unset.*
+github_fork                 Repository name on GitHub for the "Fork Me"
+                            badge.
+                            *Default unset.*
 
-github_ribbon_color     Color for the "Fork Me" badge.
-                        *Default darkblue_121621.*
-======================= ===============================================
+github_ribbon_color         Color for the "Fork Me" badge ribbon.
+                            *Default #0c1015.*
+
+github_text_color           Color for the "Fork Me" badge text.
+                            *Default #fff.*
+
+github_ribbon_hover_color   Hover color for the "Fork Me" badge ribbon.
+                            *Default #000.*
+
+github_text_hover_color     Hover color for the "Fork Me" badge text.
+                            *Default #fff.*
+=========================== ===========================================
 
 Sidebar Templates
 -----------------
 
 The following sidebar templates can be included in ``html_sidebars``.
 
-======================= ===============================================
-relations.html          Show parent, previous, and next links.
-======================= ===============================================
+=========================== ===========================================
+relations.html              Show parent, previous, and next links.
+=========================== ===========================================
 
 Pygments Style
 --------------
